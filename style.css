@@ -1,0 +1,308 @@
+
+
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: white;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.nick {
+    background-color: white;
+    font-style: bold;
+    color: #57BBBF;
+
+
+}
+
+.nav-link:hover{
+     color:rgba(105,231,245)!important; 
+
+}
+
+
+ul {
+    background: #f6f6f8;
+}
+
+.caption-center {
+    top: 40%;
+}
+
+
+
+.share {
+    letter-spacing: 10px;
+    font-family: 'Anton', sans-serif;
+    font-size: 50px;
+    text-shadow: 0.1em 0.1em 0.2em rgba(0, 0, 0, 0.8);
+}
+
+---------------------------------------------------
+
+
+
+.card {
+    border: solid;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300x;
+    margin: auto;
+    text-align: center;
+}
+
+.title {
+    color: grey;
+    font-size: 18px;
+}
+
+button {
+    border: solid;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 500;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+
+button:hover, a:hover {
+    opacity: 0.7;
+}
+
+
+
+.row {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+
+
+
+.container>.left{
+    float:left;
+    width:50%;
+    height:300px;
+    line-height:30px;
+}
+
+
+
+.container>.right{
+    float:right;
+    width:50%;
+    height:300px;
+    word-spacing: normal;
+
+}
+
+.container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+
+
+
+.color {
+    color: white;
+}
+
+
+.vp-image{
+  background-image: url("imageprix.jpg");
+  background-size: 100% 100%;
+  height: 100vh;
+}
+
+.comparison {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  display: block;
+    margin: 24px 0 0;
+    padding: 20px 32px;
+    background-color:rgba(255,255,255,0.5);
+    border-radius: 8px;
+}
+
+.color-study{
+  color:rgba(255,255,255,0.4);
+}
+
+
+h1{
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 5px;
+}
+
+---------------------les formations -----------
+
+
+
+---------------------tarif------------------
+.color {
+  color: white;
+}
+
+
+.vp-image{
+  background-image: url("turn-on-2933016_1280.jpg");
+  background-size: 100% 100%;
+  height: 100vh;
+}
+
+.comparison-study {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0,5);
+  display: block;
+  margin: 150px 0 0;
+  padding: 20px 32px;
+  background-color:rgba(255,255,255,0.9);
+  border-radius: 8px;
+  transform: translateY(0);
+  transition-duration: 0.15s;
+  display: block;
+  position: relative;
+  left: 130px;
+  margin-top: 80px;
+
+}
+
+.comparison-pro {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+  display: block;
+  margin: 150px 0 0;
+  padding: 20px 32px;
+  background-color:rgba(255,255,255,0.9);
+  border-radius: 8px;
+  transform: translateY(0);
+  transition-duration: 0.15s;
+  display: block;
+  position: relative;
+  left: 230px;
+  margin-top: 80px;
+}
+
+.comparison-pro:hover {
+  box-shadow: 0px 14px 32px 0px rgba(255, 255, 255, 0.8);
+  transition-timing-function: ease-out;
+}
+
+
+.comparison-study:hover {
+  box-shadow: 0px 14px 32px 0px rgba(255, 255, 255, 0.8);
+}
+
+.color-study{
+  color:rgba(161,159,164,0.6);
+}
+
+.price-box {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.comparison-module{
+  padding: 20px 0 40px;
+}
+
+h2{
+  top:100px;
+  margin-top: 100px;
+  text-align: center;
+  text-shadow: 0.1em 0.1em 0.2em rgba(0, 0, 0, 0.8);
+  color: white;
+  font-size: 45px;
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 5px;
+}
+
+.btn-study{
+  font-size: 16px;
+  line-height: 1;
+  border-radius: 500px;
+  padding: 10px 20px 10px;
+  letter-spacing: 2px;
+  min-width: 160px;
+  white-space: normal;
+  text-align: center;
+  cursor: pointer;
+  vertical-align: middle;
+  color: white;
+  border-width: 0;
+  background: rgba(14,207,222, 0.9);
+  font-weight: 500;
+}
+
+.btn-pro {
+  font-size: 16px;
+  line-height: 1;
+  border-radius: 500px;
+  padding: 10px 20px 10px;
+  letter-spacing: 2px;
+  min-width: 160px;
+  white-space: normal;
+  text-align: center;
+  cursor: pointer;
+  vertical-align: middle;
+  color: white;
+  border-width: 0;
+  background: rgba(14,207,222, 0.9);
+  font-weight: 500;
+
+}
+
+.btn-pro:hover {
+  background-color: rgba(105,231,245,0.9)
+}
+.btn-study:hover {
+  background-color: rgba(105,231,245,0.9)
+}
+.row{
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.yulia {
+    padding-top: 0px;
+    padding-left: 140px;
+    padding-right: 140px;
+    padding-bottom: 10px;
+}
+
+.nosformations {
+    color:black;
+}
